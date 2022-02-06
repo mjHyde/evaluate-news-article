@@ -1,0 +1,35 @@
+/* Entry board styles */
+.title {
+    border-bottom: #0c2a69 2px solid;
+}
+
+.entryHolder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    border-bottom: #96810e solid 2px;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.date {
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.city {
+    grid-row: 1;
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content {
+    /* grid-row: 2; */
+    grid-column: 1 / 4;
+    overflow-wrap: break-word;
+}

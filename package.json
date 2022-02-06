@@ -1,0 +1,53 @@
+{
+  "name": "evaluate-news-article",
+  "version": "1.0.0",
+  "description": "evaluate-news-article-project, project 4, backcountry-skiing journal",
+  "main": "server.js",
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "start": "node ./src/Server/server.js",
+    "build": "webpack",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build-prod": "webpack --config webpack.prod.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "weather-journal",
+    "backcountry",
+    "skiing",
+    "journal"
+  ],
+  "author": "Morgan Hyde, morgan.j.hyde@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "node": "^17.4.0",
+    "webpack": "^5.67.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.10",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "i": "^0.3.7",
+    "jest": "^25.5.4",
+    "mini-css-extract-plugin": "^2.5.2",
+    "node-sass": "^7.0.1",
+    "npm": "^8.3.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

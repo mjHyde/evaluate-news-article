@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    /* back-ground photo of mountains */
+    background-color: #516e8a;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(125px, auto);
+    grid-gap: 1em;
+    width: 98vw;
+    min-width: 375px;
+    margin: 10px auto;
+    background-color: #052b4ecc;
+    color: #f0d43a;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    margin: 0 auto;
+}
+
+.headline {
+    font-size: 1.9em;
+    border-bottom: solid #0c2a69 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    grid-row: 1;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background:#6cc7e0;
+    color: #96810e;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    width: 96%;
+}
+
+.hidden {
+    display: none;
+}
+
+#neededData {
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 

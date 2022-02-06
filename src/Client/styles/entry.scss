@@ -1,0 +1,45 @@
+//css for entry data
+.feel{
+    width: 90%;
+}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+    width: 90%;
+    margin: 10px auto;
+}
+
+label {
+    display:block;
+    font-size: 32px;
+    margin: 0 5px;
+}
+
+input {
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#6cc7e0;
+    color: #96810e;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 15px;
+}
+
+button {
+    width: 100%;
+    height: 100px;
+    background: #0c2a69;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: #FFF solid 2px;
+    border-radius: 15px;
+    /* box-shadow: 2px 4px 5px #444; */
+}
+
+
+
+
+

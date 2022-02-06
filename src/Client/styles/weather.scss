@@ -1,0 +1,70 @@
+.temps {
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes spin {
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.loading {
+    position: relative;
+    top: 30%;
+    left: 33%;
+}
+
+.snowflake {
+    background-image: "./img/snowflake.png";
+    width: 100px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+
+.weather {
+    background:#6cc7e0;
+    width: 400px;
+    height: 175px;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-radius: 62.5px;
+    padding: 0 24px;
+}
+
+.weatherConditions{
+    border-bottom: #0c2a69 3px solid;
+    color: #96810e;
+    grid-row: 1;
+    grid-column: 1 / 4;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.conditions, .temp, .icon {
+    color: #96810e;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    grid-row: 2;
+    font-size: 1.5em;
+}
+
+.conditions {
+    grid-column: 2;
+}
+
+.temp {
+    grid-column: 1;
+}
+
+.icon {
+    grid-column: 3;
+}
